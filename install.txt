@@ -1,0 +1,10 @@
+Installation is simple:
+1) Unzip into your wp-content/plugins directory.
+2) Download, install and configure the runPHP plugin from here: 
+http://www.nosq.com/blog/2006/01/runphp-plugin-for-wordpress/
+3) Create a new page:  wp-admin -> Manage -> Manage Pages 
+4) In this page, put the following code: <? bxml_list_recipes(); ?> and 
+make sure that you select the runPHP option on the right hand side of the page.
+5) Get the page id of the page you just created and input that into 
+Options -> BeerXML Options -> Page ID.
+6) Add your recipes through wp-admin -> Manage -> BeerXML.
